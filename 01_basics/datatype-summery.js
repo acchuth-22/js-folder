@@ -24,5 +24,31 @@ const myFunction = function(){
 
 console.log(typeof myFunction);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// In Memory we have to types
+// Stack(primitive) ,  Heap(Non-primitive)
+
+let myName = "Acchuth"    //Stack => will give you the copy value
+let anotherName = myName
+anotherName = "Arjun"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {                //Heap => will give you the ference value
+    email:"acchu@gmail.com",
+    upi:"user@ybl987654"
+}
+
+let userTwo = userOne
+
+userTwo.email="arjun@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
 
