@@ -22,5 +22,9 @@ console.log(typeof age);
 console.log(typeof null); //dataType is object
 console.log(typeof undefined);//dataType is undefined
 
+const Id = Symbol('123')
+const newId = Symbol('123')
+
+console.log(Id === newId); // === uses for strictly check
 
 
