@@ -50,7 +50,7 @@ const user = {
 }
 
 function handleObject(anyObject){
-    // console.log(`User name is ${anyObject.username} and id is ${anyObject.id}`);
+    console.log(`User name is ${anyObject.username} and id is ${anyObject.id}`);
     
 }
 // handleObject(user)
