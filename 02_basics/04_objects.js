@@ -48,11 +48,25 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("name"));
+// console.log(tinderUser.hasOwnProperty("name"));
+
+
+
+// Object de-structure
+
+const course = {
+    courseName:"JS Course",
+    Price:499,
+    CourseInstructor:"Arjun"
+}
+
+const {CourseInstructor: Instructor} = course // Insted of "CourseInstructor" we replace it by "Instructor"
+console.log(Instructor);
+
 
 
