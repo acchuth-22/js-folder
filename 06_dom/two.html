@@ -15,8 +15,24 @@
 </body>
 <script>
     const parent=document.querySelector('.parent')
-    console.log(parent);
-    console.log(parent.Childern);
-    console.log(parent.Childern(1));
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[0].innerHTML);
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].length);
+        
+    // }
+    parent.children[0].style.color="orange"
+    // console.log(parent.children.firstElementChild)
+    // console.log(parent.children.lastElementChild)
+    const dayone = document.querySelector(".day")
+    console.log(dayone);
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling);
+    console.log(dayone.nextElementSibling.nextElementSibling);
+    
+    console.log(parent.childNodes);
+    
 </script>
 </html>
