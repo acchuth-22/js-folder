@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure Scope</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function Outer(){
+        let username = "Arjun";
+        function inner(){
+            console.log("Inner", username);
+        }
+        function innerTwo(){
+            console.log("InnerTwo", username);
+        }
+        inner();
+        innerTwo()
+    }
+    Outer()
+</script>
+</html>
